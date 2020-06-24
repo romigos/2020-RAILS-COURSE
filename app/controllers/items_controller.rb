@@ -15,6 +15,10 @@ class ItemsController < ApplicationController
     render body: 'created'
   end
 
+  def new
+
+  end
+
   private
 
   def items_params
